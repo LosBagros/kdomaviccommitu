@@ -1,0 +1,21 @@
+body.dark-mode {
+    background-color: #282c34;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#profile-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
