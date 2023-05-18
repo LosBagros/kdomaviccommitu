@@ -1,7 +1,27 @@
-body.dark-mode {
-    background-color: #282c34;
-    color: white;
-    transition: background-color 0.5s ease;
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #282c34;
+        color: white;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+#chart-container {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+canvas {
+    display: block;
 }
 
 #profile-container {
@@ -9,13 +29,19 @@ body.dark-mode {
     justify-content: space-around;
 }
 
+#profile-container > div {
+    padding: 2rem;
+}
+
 .profile {
     border: 1px solid white;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+img {
+    display: block;
+    margin: 0 auto;
 }
